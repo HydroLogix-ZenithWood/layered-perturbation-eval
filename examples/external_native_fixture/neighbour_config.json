@@ -1,0 +1,40 @@
+{
+  "dataset_id": "external_native_fixture_rep1_draw0_A_neighbour",
+  "gallery_targets": "target_ids.json",
+  "predictions": {
+    "targets": "target_ids.json",
+    "features": "feature_ids.json",
+    "output_space": "Geneformer_V2_104M_fixed_revision_1f7fbae4e469a5f4f1af8c111a529cfe1b3829f5",
+    "readout": "penultimate_CLS_delta",
+    "provenance": {
+      "study": "GSE153056/GSM4633614 Papalexi2021",
+      "source": "papalexi2021_rep1",
+      "raw_count_origin": "author published raw UMI, frozen6712subset",
+      "role": "real executed arrays, not simulated or model-fitted in CLI",
+      "operation": "nearest nonpanel token deletion",
+      "start_budget": "16 cells = two NTC guides x8; strictly independent of references and PCAfit"
+    },
+    "values": "neighbour_prediction.npy"
+  },
+  "observed": {
+    "targets": "target_ids.json",
+    "features": "feature_ids.json",
+    "output_space": "Geneformer_V2_104M_fixed_revision_1f7fbae4e469a5f4f1af8c111a529cfe1b3829f5",
+    "readout": "penultimate_CLS_delta",
+    "provenance": {
+      "study": "GSE153056/GSM4633614 Papalexi2021",
+      "source": "papalexi2021_rep1",
+      "raw_count_origin": "author published raw UMI, frozen6712subset",
+      "role": "real executed arrays, not simulated or model-fitted in CLI",
+      "observation": "16 treated cells per target single guide minus two NTC reference guides x16 cells"
+    },
+    "values": "observed_A.npy"
+  },
+  "evaluation_provenance": {
+    "selection": "source rep1, iteration0, arm A fixed by metadata before effect scoring; input-interface execution validation, not a new biological replicate",
+    "paired_with": "target",
+    "fixture_scope": "fixed10-target gallery, pooled CLS; no feature/target intersection",
+    "source_draw_sha256": "cc1ee3124611de674f4569ed8fe71ed9bb7a6ca0aef4e966e9b208badfdb5a57",
+    "input_freeze_sha256": "ee5f840f9dc6b3349dda3c79cc396eb821e1cd5118c3f7a8f1e83cc195273f22"
+  }
+}

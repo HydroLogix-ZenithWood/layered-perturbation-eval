@@ -1,0 +1,55 @@
+{
+  "scope": "Supplied derived scientific tables; no model weights.",
+  "files": [
+    {
+      "file": "data/Figure4_draw_metrics.csv",
+      "sha256": "f1f912c84b29c3f91c66689ce343b9bafd3f84ad3dbf9a3a90d55a2aa3cf252f",
+      "source_name": "Figure4_draw_metrics.csv"
+    },
+    {
+      "file": "data/Figure4_estimand_summary.csv",
+      "sha256": "dc546c028e38b33c8b9530f23b93cac2b57f7c0adfd690a46809634278651c05",
+      "source_name": "Figure4_estimand_summary.csv"
+    },
+    {
+      "file": "data/Figure4_target_mean_coverage_curves.csv",
+      "sha256": "a354e26d904961f22c1e5197bf0f8e3063e248719a59c5f7ccbfabe7aee2dbf1",
+      "source_name": "Figure4_target_mean_coverage_curves.csv"
+    },
+    {
+      "file": "data/Figure4_target_mean_scores.csv",
+      "sha256": "80d9594302a24749d86f89d9145dc6462a31abb66cca7b170e20e8dd6e1536b3",
+      "source_name": "Figure4_target_mean_scores.csv"
+    },
+    {
+      "file": "data/Table_S24_Figure4_estimands.csv",
+      "sha256": "dc546c028e38b33c8b9530f23b93cac2b57f7c0adfd690a46809634278651c05",
+      "source_name": "Table_S24_Figure4_estimands.csv"
+    },
+    {
+      "file": "data/Table_S25_microglia_overlap_summary.csv",
+      "sha256": "d3fd670208bba75137fd486bc26cb23fc041df4213427ce6592fb3e84a8cbdd0",
+      "source_name": "Table_S25_microglia_overlap_summary.csv"
+    },
+    {
+      "file": "data/Table_S26_earlier_query_exclusion.csv",
+      "sha256": "a564e0078a008a9f10b8b96dddb8d5bc9a9b99a0afc754883102347e25c2d51c",
+      "source_name": "Table_S26_earlier_query_exclusion.csv"
+    },
+    {
+      "file": "data/Table_S27_external_role_overlap.csv",
+      "sha256": "684d56b9fde7a433f8cba76eaba4ad0a58ff3769c2903380ffd793f48323aae2",
+      "source_name": "Table_S27_external_role_overlap.csv"
+    },
+    {
+      "file": "data/Table_S28_microglia_gallery_versions.csv",
+      "sha256": "6e75037b0c70e9e2c5b1e0572eebcaeb6e1a432962130dfc1937d364e7f7d934",
+      "source_name": "Table_S28_microglia_gallery_versions.csv"
+    },
+    {
+      "file": "data/microglia_current_reference_overlap_recomputed.csv",
+      "sha256": "1a91dcdaa469578a894173d070ed469602b8c3c0a5fa52795914013cedd5218e",
+      "source_name": "microglia_current_reference_overlap_recomputed.csv"
+    }
+  ]
+}

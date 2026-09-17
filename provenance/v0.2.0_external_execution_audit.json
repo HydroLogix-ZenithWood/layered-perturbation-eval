@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "completed_utc": "2026-09-17T00:04:15.811361+00:00",
+  "unchanged_v1_core": true,
+  "observed_coordinate_permutation_restored": true,
+  "missing_prediction_retains_full_gallery_and_NA": true,
+  "fixture_sha256": {
+    "provenance.json": "75d24c04933cbfac603afb1f2afc622f3d78439e8baa030c43fab9100ee90e65",
+    "feature_ids.json": "d1abd1939ff77afd00f41ad9898c539717ccf33f1bc17062a5e16a5542809a03",
+    "target_prediction.npy": "5c8cbfc8d95bc85c003e347a2fec9d4b1e4d19c4511490fc4beeecd1a5fb40ff",
+    "README.md": "154bb11486f6e05da06844b2605b298a5d24683c2006fbdf79c1286a8da959f9",
+    "expected_target_score_matrix.npy": "47959f5f8be4f993becde8b25704328b91cb74e9baac1a887bb41f20c71cfe47",
+    "neighbour_config.json": "ff832a3b84903dea6699b8d4a3d89b7e1b225ea90e502eff666c748bdac14c3d",
+    "target_config.json": "6eb50db6856e3125f9810b03d945e34bf702cf395bdb9c244192be9367ef55b7",
+    "expected_neighbour_score_matrix.npy": "10dd5cf617670e4537d260332db13d90f5e5ce39c0a3bc4ba8d5ab5919975bf9",
+    "target_ids.json": "82c432d846ef87b5fea8c51b66af6d6600ea792c8da199681e18c871cda44ef6",
+    "neighbour_prediction.npy": "07d46eed67d7097b50ab285721d5f5f08bb0b36666c21153f449975db50cc0b9",
+    "observed_A.npy": "47ed150cbf0984a06da953aa177475f2ec945c4b31c4550a5eb39bc860538ff2"
+  },
+  "scope": "Real-array evaluation-interface replay in another directory using the existing tested dependency environment; no independent end-to-end model rerun or new biological validation.",
+  "matrix_max_abs_error": 3.885780586188048e-16
+}

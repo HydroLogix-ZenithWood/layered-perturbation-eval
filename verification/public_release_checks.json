@@ -1,0 +1,80 @@
+{
+  "status": "passed",
+  "recorded_utc": "2026-09-17T05:46:43.472680+00:00",
+  "publication_status": "not_published_by_this_check",
+  "core_version": "0.2.1",
+  "execution_mode": "Source tree using PYTHONPATH=src in existing pinned numerical environment; this is not a newly created clean install.",
+  "python": "3.10.20",
+  "core_tests": {
+    "original_numerical_methods": 13,
+    "source_eligibility_methods": 11,
+    "passed": 24,
+    "commands": [
+      "python -m unittest layered_eval.test_core layered_eval.test_predictions -v",
+      "python -m unittest discover -s tests -v"
+    ]
+  },
+  "external_fixtures": [
+    {
+      "fixture": "target",
+      "status": "passed",
+      "shape": [
+        10,
+        10
+      ],
+      "max_absolute_difference": 3.885780586188048e-16
+    },
+    {
+      "fixture": "neighbour",
+      "status": "passed",
+      "shape": [
+        10,
+        10
+      ],
+      "max_absolute_difference": 1.1102230246251565e-16
+    }
+  ],
+  "native_contract": {
+    "status": "passed",
+    "source": "papalexi2021_rep1",
+    "fixed_gallery_size": 10,
+    "unique_native_starts": 39,
+    "native_start_uses": 160,
+    "role_pools_pairwise_disjoint": true
+  },
+  "derived_tables": {
+    "status": "passed",
+    "scope": "Supplied derived-table aggregation and consistency only; no model inference or fresh cell-ID intersections.",
+    "figure4_conditions": 6,
+    "figure4_draws_per_condition": 100,
+    "figure4_estimands": 42,
+    "numeric_comparisons": 1956,
+    "max_absolute_difference": 2.220446049250313e-16,
+    "current_overlap_records": 79200,
+    "earlier_query_rows": 324,
+    "external_query_rows": 30,
+    "gallery_version_rows": 14,
+    "input_hashes_verified": 10,
+    "not_recomputed": [
+      "Original model outputs",
+      "Original score matrices",
+      "Original cell-ID intersections",
+      "Unique native starting-cell union counts"
+    ]
+  },
+  "original_core_comparison": {
+    "unchanged_file_count": 45,
+    "documentation_changed_files": [
+      "CHANGELOG.md",
+      "README.md",
+      "RELEASE_STATUS.md",
+      "THIRD_PARTY_NOTICES.md",
+      "provenance/V1_THIRD_PARTY_NOTICES.md",
+      "provenance/V2_THIRD_PARTY_NOTICES.md",
+      "release_provenance/third_party_licenses/README.md"
+    ],
+    "all_original_executable_code_tests_configs_and_fixtures_unchanged": true,
+    "third_party_license_texts_unchanged": true
+  },
+  "scope": "Numerical software, supplied-fixture execution and supplied-table consistency; not model inference or new biological validation."
+}

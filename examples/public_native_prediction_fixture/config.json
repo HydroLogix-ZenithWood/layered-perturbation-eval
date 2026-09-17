@@ -1,0 +1,225 @@
+{
+  "dataset_id": "public_microglia_GF_V2_CLS_native_execution_fixture",
+  "gallery_targets": "targets.json",
+  "predictions": {
+    "targets": "targets.json",
+    "features": "features.json",
+    "output_space": "Geneformer_V2_104M_frozen_768dim",
+    "readout": "FP32_penultimate_CLS_delta",
+    "values": "predicted_response.npy",
+    "provenance": {
+      "source_experiment": "microglia_pool",
+      "intervention": "native target-token deletion without refill",
+      "aggregation": "equal weight per native starting control guide",
+      "native_input_budget_not_matched": true,
+      "source_array_hashes": [
+        {
+          "target": "ATP1A1",
+          "input_sha256": "97a8542af71b0d59fb746ca93538153d8373153c2289597cde2b72d5fb312852",
+          "n_native_start_cells": 32,
+          "n_native_start_guides": 4,
+          "n_overlap_with_observed_reference": 3
+        },
+        {
+          "target": "CDC25B",
+          "input_sha256": "70909005809902bb688b375ae0179b9673f9a7937fff62342406718280f2f4ef",
+          "n_native_start_cells": 32,
+          "n_native_start_guides": 4,
+          "n_overlap_with_observed_reference": 2
+        },
+        {
+          "target": "CDK8",
+          "input_sha256": "78199a4d9c99d8a24cde72e64759e10e8d4b72ce9fbecda2ca39678c14a17ae0",
+          "n_native_start_cells": 32,
+          "n_native_start_guides": 4,
+          "n_overlap_with_observed_reference": 5
+        },
+        {
+          "target": "CSF2RA",
+          "input_sha256": "b65cb232f3d15d9fc0fb4aa44c8a52b2be3fce548f6da87a0c5dc7c98d30d889",
+          "n_native_start_cells": 32,
+          "n_native_start_guides": 4,
+          "n_overlap_with_observed_reference": 1
+        },
+        {
+          "target": "CSF2RB",
+          "input_sha256": "5a653ff8153df50d685aaa421ccb07730639082175ea43984c3b1c72d9a70801",
+          "n_native_start_cells": 25,
+          "n_native_start_guides": 4,
+          "n_overlap_with_observed_reference": 0
+        },
+        {
+          "target": "CSNK2A1",
+          "input_sha256": "c48ae89ca3da7484559cb8ad5207ff755147090767648e710fec933e5cca4644",
+          "n_native_start_cells": 32,
+          "n_native_start_guides": 4,
+          "n_overlap_with_observed_reference": 4
+        },
+        {
+          "target": "EPOR",
+          "input_sha256": "f7940c9b3c23b9ca538e7c8e81bde65189816fa2f58d67b0ee16f36968eb3f13",
+          "n_native_start_cells": 25,
+          "n_native_start_guides": 4,
+          "n_overlap_with_observed_reference": 3
+        },
+        {
+          "target": "IFNAR2",
+          "input_sha256": "b348eb9b82c6bdc1963ccf9c192448a10052725ad0b544ac260626718e14b8ae",
+          "n_native_start_cells": 32,
+          "n_native_start_guides": 4,
+          "n_overlap_with_observed_reference": 5
+        },
+        {
+          "target": "INPP5D",
+          "input_sha256": "6b27745c9d6aaf8be37b4d1fc64f1c3c0bc592bea016f46bed38be62e7dd6014",
+          "n_native_start_cells": 32,
+          "n_native_start_guides": 4,
+          "n_overlap_with_observed_reference": 2
+        },
+        {
+          "target": "MAP2K6",
+          "input_sha256": "3c5d7d6264845abe681683173a7cf3ff6a7187b51f3814dcc8d9c1516b0e92b1",
+          "n_native_start_cells": 32,
+          "n_native_start_guides": 4,
+          "n_overlap_with_observed_reference": 3
+        },
+        {
+          "target": "MAPK14",
+          "input_sha256": "97554ae3780c2fe4178ec10aa3c23d28ba88663734428bffd04fda6f7e0c73c4",
+          "n_native_start_cells": 32,
+          "n_native_start_guides": 4,
+          "n_overlap_with_observed_reference": 2
+        },
+        {
+          "target": "MTHFD2",
+          "input_sha256": "9e241ccab660377d98733fc2872a2686872968461c0f902b45c8409562d5aeb6",
+          "n_native_start_cells": 32,
+          "n_native_start_guides": 4,
+          "n_overlap_with_observed_reference": 2
+        },
+        {
+          "target": "NDUFA8",
+          "input_sha256": "b43e112c6341334adec64e404641ecdc72f766236c3148cea887097937531b54",
+          "n_native_start_cells": 32,
+          "n_native_start_guides": 4,
+          "n_overlap_with_observed_reference": 2
+        },
+        {
+          "target": "NDUFV2",
+          "input_sha256": "4aef20c1fc0fb055d0e3004a8cdf81ca7856810597df2e06a13cf9abf74aee48",
+          "n_native_start_cells": 32,
+          "n_native_start_guides": 4,
+          "n_overlap_with_observed_reference": 3
+        },
+        {
+          "target": "PFN2",
+          "input_sha256": "2a6ebfdb8e46ec7f6a09f712982bdb735cf47c5506e6c9654844071920345686",
+          "n_native_start_cells": 32,
+          "n_native_start_guides": 4,
+          "n_overlap_with_observed_reference": 1
+        },
+        {
+          "target": "PKM",
+          "input_sha256": "13469195aa579b16b594d294c1e498b624134d92d83e425008a8ca3333260443",
+          "n_native_start_cells": 32,
+          "n_native_start_guides": 4,
+          "n_overlap_with_observed_reference": 6
+        },
+        {
+          "target": "PPM1D",
+          "input_sha256": "2f479d9e84a50d7148fefe38a76e20ec67536cab07d5499d7d50b2715d4ef5d2",
+          "n_native_start_cells": 32,
+          "n_native_start_guides": 4,
+          "n_overlap_with_observed_reference": 1
+        },
+        {
+          "target": "RPS6KA6",
+          "input_sha256": "9d7cfbf512030122fc56a5e88420eefa4c193c936c179d296c1da8ea161b9710",
+          "n_native_start_cells": 8,
+          "n_native_start_guides": 3,
+          "n_overlap_with_observed_reference": 1
+        },
+        {
+          "target": "RPS6KB1",
+          "input_sha256": "52a7f280673bb944a5c31828fabfce95f790eb73e5b3e617e3d242029091ad3f",
+          "n_native_start_cells": 32,
+          "n_native_start_guides": 4,
+          "n_overlap_with_observed_reference": 4
+        },
+        {
+          "target": "RPS6KB2",
+          "input_sha256": "d322fedc9993f539a9f1b83349f5ad888d536d7a9c7d6873d80c9465a4dd99ec",
+          "n_native_start_cells": 32,
+          "n_native_start_guides": 4,
+          "n_overlap_with_observed_reference": 1
+        },
+        {
+          "target": "SPTLC2",
+          "input_sha256": "0296b76a824a0201a01562d78ba89a2c463db9e930f839735595c2f27babdac2",
+          "n_native_start_cells": 32,
+          "n_native_start_guides": 4,
+          "n_overlap_with_observed_reference": 0
+        },
+        {
+          "target": "STK40",
+          "input_sha256": "8b19b21cb254452778818728a742866c4fb49dfa0d2c75782aba88961ae00652",
+          "n_native_start_cells": 32,
+          "n_native_start_guides": 4,
+          "n_overlap_with_observed_reference": 2
+        },
+        {
+          "target": "TGFBR2",
+          "input_sha256": "5454350a0899b5e58cf408ba5f442686436e485750fb7aa0f488440ed7b4858b",
+          "n_native_start_cells": 32,
+          "n_native_start_guides": 4,
+          "n_overlap_with_observed_reference": 2
+        },
+        {
+          "target": "TRAPPC3",
+          "input_sha256": "3f16a5f1f08ba8d5e24c502bd0922a89a05d05b04cc4f43c1f2e2ab22561a7a3",
+          "n_native_start_cells": 32,
+          "n_native_start_guides": 4,
+          "n_overlap_with_observed_reference": 3
+        },
+        {
+          "target": "TRIM24",
+          "input_sha256": "adc038cb5f0b6edb861f8bac70a6fa281c0eebdb3b9bc8741161dfa08fdf0620",
+          "n_native_start_cells": 32,
+          "n_native_start_guides": 4,
+          "n_overlap_with_observed_reference": 1
+        },
+        {
+          "target": "ZMYND8",
+          "input_sha256": "fd7291d190b4e4ca7aa8c354e7cb3b8f4bd44eec87167aa14b6a8a391689eeb4",
+          "n_native_start_cells": 32,
+          "n_native_start_guides": 4,
+          "n_overlap_with_observed_reference": 4
+        }
+      ]
+    }
+  },
+  "observed": {
+    "targets": "targets.json",
+    "features": "features.json",
+    "output_space": "Geneformer_V2_104M_frozen_768dim",
+    "readout": "FP32_penultimate_CLS_delta",
+    "values": "observed_response.npy",
+    "provenance": {
+      "source_experiment": "microglia_pool",
+      "iteration": 0,
+      "draw_arm": "A",
+      "aggregation": "one target guide (16 cells) minus equal-guide two controls (16 cells each)",
+      "original_draw_sha256": "ba7da1aa25cab13494c7dc55e5aa83a89ebb4f8d68b2d3b2a535da053b8bc04f",
+      "representation_sha256": "a2159d4cfd493f516d17292cb4e9228189f019bc49e88765856254f8108ee158"
+    }
+  },
+  "evaluation_provenance": {
+    "scope": "Real existing prediction and measured response arrays, copied as a portable execution example; not new biological validation.",
+    "selection": "All existing eligible targets in the frozen native gallery, first frozen iteration A, no selection by score.",
+    "source_completion_sha256": "ae7dfa04f32460abdffaeef6ae9e3e587bd783b86d7db01aa103884cb7c7f4f9",
+    "input_semantics": "Native starting cells are target-token-visible and vary by target; their count is not budget matched to the observed 16/32-cell response. Shared native start and reference cells are counted in the included ledger.",
+    "accession": "GSE178317",
+    "source_context": "WTC11 pooled iPSC-derived microglia; four technical lanes are not independent biological replicates",
+    "publication_and_model_terms": "Original source/model terms remain applicable; local fixture preparation does not assign a new license."
+  }
+}
