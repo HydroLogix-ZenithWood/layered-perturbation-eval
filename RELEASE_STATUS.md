@@ -1,10 +1,14 @@
 # Distribution status
 
-Status: `prepared_for_public_release`.
+Status: `published_on_GitHub`.
 
-This is a local release payload for version 0.2.1 of the numerical software, with
-additional manuscript-derived table checks. Remote publication has not yet been
-verified. No DOI or public-access claim is made by this file.
+Repository: https://github.com/HydroLogix-ZenithWood/layered-perturbation-eval
+
+The public repository was created and its main branch pushed on 17 September
+2026. GitHub repository metadata confirms public visibility. The numerical
+software version is 0.2.1; manuscript-derived table checks are included as a
+separate reproducibility directory. No DOI or long-term archive identifier is
+claimed by this distribution.
 
 The original numerical source, tests, configurations and interface fixtures are
 unchanged from the qualified 0.2.1 candidate. New scientific-table checks are

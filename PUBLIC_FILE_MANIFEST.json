@@ -1,5 +1,5 @@
 {
-  "scope": "Files in the public staging payload; this manifest excludes itself. Rebuild after any file update.",
+  "scope": "Tracked public distribution files; this manifest excludes itself. Rebuild after any file update.",
   "files": [
     {
       "path": ".gitignore",
@@ -23,8 +23,8 @@
     },
     {
       "path": "RELEASE_STATUS.md",
-      "size_bytes": 684,
-      "sha256": "021b50bc14e2209eab94ad134e4996c0ee75fc966733306f67a48d2084e3c31e"
+      "size_bytes": 869,
+      "sha256": "ddf20cd61cf925297caf02e54edddbb7068f143d9385b8ea154c88c86fe90b81"
     },
     {
       "path": "SCHEMA.md",
